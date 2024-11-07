@@ -35,17 +35,13 @@ public class Cafe extends Building {
         this.nCreams = 50;
         this.nCups = 50;
     }
-
+    
     /**
-     * overridden method for traveling between adjacent floors
-     * @param floorNum takes in the desired floor number to go to
+     * overridden method for trying to travel between adjacent floors
+     * @param floorNum takes in the desired floor number to go to, then tells them that they can't go anywhere else
      */
     public void goToFloor(int floorNum) {
-        if(!this.haselevator) {
-            super.goToFloor(floorNum);
-        } else{
-            throw new RuntimeException("Sorry! no elevator so can't travel between non-adjacent floors");
-        }
+       throw new RuntimeException("Can't go to any other floor");
     }
 
     /**
