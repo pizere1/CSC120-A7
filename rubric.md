@@ -20,7 +20,7 @@ __YES__ 1 pt: The `Library` class has a `goToFloor(...)` method that allows move
 
 __YES___ 1 pt: The `House` class has a `goToFloor(...)` method that allows movement between non-adjacent floors only if an elevator is present
 
-___Part__ 1 pt: The `Cafe` class has a `goToFloor(...)` method that doesn't permit movement off the first floor (we assume that any additional floors are for storage / accessible only to employees)
+___Yes__ 1 pt: The `Cafe` class has a `goToFloor(...)` method that doesn't permit movement off the first floor (we assume that any additional floors are for storage / accessible only to employees)
 
 ### Level 2: Method `Overloads` (3 pts)
 
